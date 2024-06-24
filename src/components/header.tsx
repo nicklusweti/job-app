@@ -11,18 +11,18 @@ const Header = () => {
         </Link>
         <ul className="flex items-center space-x-4">
           <li>
-            <ThemeToggle />
-          </li>
-          <li>
-            <Button>
+            <Button size="sm">
               <Link href="/login">Login</Link>
             </Button>
           </li>
-          {/* <li>
-            <Button size="sm">
+          <li>
+            <Button size="sm" variant="outline">
               <Link href="/new-job">Post a job</Link>
             </Button>
-          </li> */}
+          </li>
+          <li>
+            <ThemeToggle />
+          </li>
         </ul>
       </nav>
     </header>
