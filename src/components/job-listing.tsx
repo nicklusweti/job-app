@@ -1,6 +1,11 @@
+import { Heart, Star } from "lucide-react";
+
 const JobListing = () => {
   return (
-    <div className="p-6 bg-background rounded-md w-full">
+    <div className="relative p-6 bg-background rounded-md w-full">
+      <div className="absolute top-6 right-6">
+        <Star className="h-4 w-4" />
+      </div>
       <div className="flex grow gap-4">
         <div className="content-center">
           <img
