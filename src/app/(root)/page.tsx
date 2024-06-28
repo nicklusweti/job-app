@@ -1,10 +1,13 @@
 import Hero from "@/components/hero";
+import JobListings from "@/components/job-listings";
 
 const Home = () => {
   return (
     <>
       <Hero />
-      Listings
+      <div className="bg-muted h-full">
+        <JobListings />
+      </div>
     </>
   );
 };
