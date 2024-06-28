@@ -7,7 +7,7 @@ const Header = () => {
     <header>
       <nav className="items-center p-4 mx-auto max-w-screen-xl sm:px-8 flex justify-between sm:space-x-6">
         <Link href="/" className="font-bold text-2xl">
-          Job<span className="text-muted-foreground">Board.</span>
+          Job<span className="text-primary">Board.</span>
         </Link>
         <ul className="flex items-center space-x-4">
           <li>
